@@ -59,6 +59,7 @@ class HomeView extends StatefulWidget {
                         "icon": Icons.location_pin,
                         "label": "Location\n",
                         "onTap": () {
+                          controller.getCurrentPosition();
                           Get.to(() => const LocationPageView());
                         },
                       },

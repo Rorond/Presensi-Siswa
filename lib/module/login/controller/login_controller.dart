@@ -17,8 +17,8 @@ class LoginController extends State<LoginView> implements MvcController {
 
   @override
   Widget build(BuildContext context) => widget.build(context, this);
-  String? email = "admin@gmail.com";
-  String? password = "admin";
+  String? email;
+  String? password;
 
   doLogin() {
     if (email == "admin@gmail.com" && password == "admin") {
