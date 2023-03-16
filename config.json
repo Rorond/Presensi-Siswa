@@ -1,0 +1,11 @@
+{
+    "openai_key": "",
+    "modules": [
+        "splashscreen",
+        "login",
+        "siswa",
+        "home",
+        "input_siswa",
+        "location_page"
+    ]
+}
